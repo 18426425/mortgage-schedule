@@ -10,7 +10,8 @@ Type "copyright", "credits" or "license()" for more information.
 >>> outstanding =P
 >>> print ('\t'. join(('Month', 'Instalment','Interest','Principal','Outstanding')))
 Month	Instalment	Interest	Principal	Outstanding
->>> for i in range(0,n):
+>>> for i in range(1,13):
+	i = i+1
 	interest= r * outstanding
 	principal=A-r*outstanding
 	outstanding = outstanding-principal
